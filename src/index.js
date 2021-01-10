@@ -103,3 +103,14 @@
 // const [name, age] = myProfile;
 // const message2 = `私の名前は${name}です。年齢は${age}です。`;
 // console.log(message2);
+
+/**
+ * デフォルト値, 引数
+ */
+// const sayHello = (name) => console.log(`こんにちは!${name}`);
+// sayHello();
+// =>こんにちは!undefined
+
+// const sayHello2 = (name = "じゃけぇ") => console.log(`こんにちは!${name}`);
+// sayHello2();
+// =>こんにちは!じゃけぇ

@@ -41,7 +41,20 @@
 // console.log(val4);
 
 // constで定義したオブジェクトはプロパティの変更可能
-const val5 = ["dog", "cat"];
+// const val5 = ["dog", "cat"];
 
-val5[3] = "yama";
-console.log(val5);
+// val5[3] = "yama";
+// console.log(val5);
+
+// テンプレート文字列
+const name = "じゃけぇ";
+const age = 28;
+// 私の名前はじゃけぇです。28歳です。
+
+// 従来の方法
+const message1 = "私の名前は" + name + "です。" + age + "です。";
+console.log(message1);
+
+// テンプレート文字列を用いると、、、
+const message2 = `私の名前は${name}です。${age}です。`;
+console.log(message2);
